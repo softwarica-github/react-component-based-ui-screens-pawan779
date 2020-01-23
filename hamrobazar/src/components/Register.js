@@ -33,8 +33,7 @@ class Register extends Component {
 
                     </FormGroup>
                     <FormGroup>
-                        {/*
-                        <Input type="file" className="form-control" onChange={this.handleFileSelected}/> */}
+                       
 
                         <Input
                             type="text"
@@ -89,7 +88,10 @@ class Register extends Component {
                     </FormGroup>
 
                     <Button varient="primary" type="submit">Submit</Button>
+
                 </Form>
+
+                <span>Already member <a href="/login" className="btn btn-link">Login</a>Here</span>
                 </Col>
             </Container>
         )
