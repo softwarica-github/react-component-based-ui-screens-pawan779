@@ -1,9 +1,5 @@
 import React, {Component} from 'react'
-import {
-    Navbar,
-    Nav,
-    Button
-} from "react-bootstrap";
+import {Navbar, Nav, Button} from "react-bootstrap";
 import {Link} from 'react-router-dom'
 
 export default class Navmenu extends Component {
@@ -19,9 +15,9 @@ export default class Navmenu extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
 
-                            <Nav.Link className="text-light"as={Link} to="/">Home</Nav.Link>
-                            <Nav.Link className="text-light"as={Link} to="/about">About</Nav.Link>
-                            <Nav.Link className="text-light"as={Link} to="/contact">Contact</Nav.Link>
+                            <Nav.Link className="text-light" as={Link} to="/">Home</Nav.Link>
+                            <Nav.Link className="text-light" as={Link} to="/about">About</Nav.Link>
+                            <Nav.Link className="text-light" as={Link} to="/contact">Contact</Nav.Link>
                             {/* <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#link">About Us</Nav.Link> */}
                             {/* <NavDropdown title="Dro</Nav.Link>pdown" id="basic-nav-dropdown">
